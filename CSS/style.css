@@ -83,4 +83,13 @@ main{
             color: white;
         }
     }
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        color: white;
+        top: 100%;
+        position: relative;
+        bottom: 0;
+    }
 }
