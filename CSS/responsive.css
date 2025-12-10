@@ -1,0 +1,55 @@
+@media only screen and (min-width:768px){
+
+    main{
+
+        width: 100%;
+        align-items: center;
+        .producto{
+            width: 70%;
+            background-color: rgb(80, 29, 29) !important;
+            color: #8d8d3d;
+            transition: .2s;
+            button{
+                border: solid black;
+            &:hover{
+
+                background-color: black;
+                color: white;
+            }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:1080px){
+
+    
+body{
+    background:url(https://cdn.wallpapersafari.com/87/25/qkiwtL.jpg)!important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+    header{
+        
+        img{
+        width: 6% !important;
+        }
+        ul{
+            gap: 3rem !important;
+            li{
+                font-size: 20px !important;
+            }
+        }
+    }
+
+    main{
+        flex-direction: row !important;
+        flex-wrap: wrap;
+        justify-content: center;
+        .producto{
+            width: 20%;
+        }
+    }
+
+
+}
