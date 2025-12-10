@@ -83,7 +83,7 @@ main{
             color: white;
         }
     }
-    footer{
+    /* footer{
         display: flex;
         justify-content: center;
         align-items:center;
@@ -91,5 +91,5 @@ main{
         top: 100%;
         position: relative;
         bottom: 0;
-    }
+    } */
 }
